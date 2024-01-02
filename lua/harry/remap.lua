@@ -19,4 +19,4 @@ vim.keymap.set("n", "<leader>sv", "<cmd>:vsplit<cr>")
 vim.keymap.set("n", "<leader>sh", "<cmd>:split<cr>")
 
 
-vim.cmd('colorscheme base4tone_classic_w_dark')
+vim.cmd('colorscheme base4tone_modern_n_dark')
