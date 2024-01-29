@@ -18,5 +18,7 @@ vim.keymap.set("n", "<leader>tq", "<cmd>:tabclose<cr>")
 vim.keymap.set("n", "<leader>sv", "<cmd>:vsplit<cr>")
 vim.keymap.set("n", "<leader>sh", "<cmd>:split<cr>")
 
+vim.keymap.set("n", "<f5>", "<cmd>:! ./compile ~<cr>")
+
 
 vim.cmd('colorscheme base4tone_modern_n_dark')
