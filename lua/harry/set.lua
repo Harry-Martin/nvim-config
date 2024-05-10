@@ -28,4 +28,8 @@ vim.opt.backup = false
 vim.opt.undodir = "/home/harry/.vim/undodir"
 vim.opt.undofile = true
 
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
 vim.g.c_syntax_for_h = 1
+
