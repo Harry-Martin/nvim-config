@@ -14,8 +14,6 @@ vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
 
-vim.opt.updatetime = 50
-
 --vim.opt.colorcolumn = "80"
 
 vim.opt.tabstop = 4
@@ -32,4 +30,3 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 vim.g.c_syntax_for_h = 1
-
