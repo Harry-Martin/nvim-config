@@ -13,6 +13,13 @@ return require('packer').startup(function(use)
 	use({'olivercederborg/poimandres.nvim'})
 	use({'hsi/lapland.nvim'})
 	use({'atelierbram/base4tone-nvim'})
+	use({'blazkowolf/gruber-darker.nvim'})
+	use({'folke/tokyonight.nvim'})
+	use({'rebelot/kanagawa.nvim'})
+	use({'mofiqul/vscode.nvim'})
+	use({'kdheepak/monochrome.nvim'})
+	use({'rafi/awesome-vim-colorschemes'})
+	use({'mcchrish/vim-no-color-collections'})
 
 	use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
 	use('nvim-treesitter/playground')
@@ -35,5 +42,7 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+
+	use ({'shortcuts/no-neck-pain.nvim', tag = '*'})
 
 end)
